@@ -1,0 +1,84 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    margin: 0px auto;
+    width: 800px;
+    min-height: 600px;
+}
+
+header {
+    min-height: 70px;
+}
+
+main {
+
+    min-height: 300px;
+}
+
+.risk_btn_section {
+    text-align: center;
+    width: 750px;
+    height: 150px;
+}
+
+.risk_btn_section form {
+    display: inline-block;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.reset_btn {
+    position: relative;
+    left: 620px;
+    bottom: 100px;
+    border: none;
+}
+
+#reset {
+    background-color: red;
+    color: white;
+}
+
+input {
+    background-color: green;
+    color: white;
+}
+
+header h1,
+header h2 {
+    margin: 20px 0px;
+}
+
+h3,
+h4,
+input {
+    padding: 8px;
+    margin: 5px;
+}
+
+.game_host_section h2 {
+    margin: 10px 0;
+}
+
+.game_host_box {
+    width: 750px;
+    height: 200px;
+    border: 1px black solid;
+    overflow-y: auto;
+}
+
+p {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.profit {
+    color: green;
+}
+
+.loss {
+    color: red;
+}
