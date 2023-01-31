@@ -1,0 +1,20 @@
+1. Failed to connect to MySQL: (2002) php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known - wrong DB_HOST
+
+2. Failed to connect to MySQL: (1045) Access denied for user 'roo12t1'@'localhost' (using password: NO) - wrong DB_USER + no password
+
+3. Failed to connect to MySQL: (1045) Access denied for user 'root @'localhost' (using password: YES) - wrong DB_PASS
+
+4. Failed to connect to MySQL: (1049) Unknown database 'mydb' - wrong DB_DATABASE
+
+
+Solution: check on http://localhost:8888/MAMP/?language=English for the correct information.
+
+
+1. Authentication Error
+- Authentication errors occur when you attempt to connect to MySQL using an application like MySQL Workbench or a version 5. x client that does not support the caching_sha2_password .
+
+2.Authorization Error
+- If the access code request fails for any reason, or if one of the request parameters is invalid, then an error occurs. 
+
+3.Network Error
+- The error (2003) Can't connect to MySQL server on ' server ' (10061) indicates that the network connection has been refused.
